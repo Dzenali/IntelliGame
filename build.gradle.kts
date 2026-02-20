@@ -97,7 +97,7 @@ intellijPlatform {
 dependencies {
     intellijPlatform {
         //create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"))
-        local("C:/Users/thiba/AppData/Local/Programs/IntelliJ IDEA Ultimate")
+        local("C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.2")
 
         // Bundled Plugin Dependencies. Uses `platformBundledPlugins` property from the gradle.providers.gradleProperty file for bundled IntelliJ Platform plugins.
         bundledPlugins(providers.gradleProperty("platformBundledPlugins").map { it.split(',') })
